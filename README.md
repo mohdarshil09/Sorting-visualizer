@@ -1,21 +1,11 @@
-Sorting Visualizer:
-An interactive web application built with React.js to visualize how different sorting algorithms work. This project is designed to help users and students understand sorting algorithms through real-time animations and a clean, responsive UI.
-
-
-🚀 Features
-🎞️ Real-Time Visualizations for popular sorting algorithms,
-🔄 Algorithms Included:
-       Merge Sort,
-       Quick Sort,
-       Bubble Sort,
-       Selection Sort,
-       Insertion Sort
-🧮 Adjustable array size and animation speed,
-🔧 Dynamic UI with smooth transitions and efficient performance,
-📱 Responsive Design — works on desktops, tablets, and phones
-
-
-
+Sorting Visualizer – Interactive Algorithm Playground
+Sorting Visualizer is a React-powered web app that turns abstract sorting algorithms into colorful, real-time animations. Built for students and curious minds, it offers an intuitive UI, responsive layout, and hands-on controls so anyone can explore how different algorithms behave.
+✨ Highlights
+🎞️ Live Animations – Watch each comparison and swap across multiple sorting techniques.
+🔄 Algorithms Included – Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort.
+🧮 Adjustable Parameters – Tune array length and animation speed to see how complexity affects runtime.
+🎨 Polished, Dynamic UI – Smooth transitions, clear status summaries, and option controls that stay responsive across devices.
+📱 Fully Responsive – Optimized layouts for desktops, tablets, and mobile screens.
 🛠 Tech Stack
-Frontend: React.js, HTML, CSS, JavaScript
-Tools: VS Code, Git, GitHub
+Frontend: React.js, HTML5, CSS3, modern JavaScript (ES2020+)
+Tooling: VS Code, Git, GitHub, Create React App (react-scripts)
