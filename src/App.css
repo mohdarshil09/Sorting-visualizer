@@ -1,0 +1,42 @@
+.App {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background: radial-gradient(circle at 20% 20%, #223056, #0e111a 55%);
+}
+
+.container {
+  width: min(1200px, 100%);
+  min-height: 85vh;
+  border-radius: 28px;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 40px 120px rgba(15, 23, 42, 0.35);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+  .App {
+    padding: 16px;
+  }
+
+  .container {
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 0;
+  }
+
+  .container {
+    border-radius: 0;
+    min-height: 100vh;
+  }
+}
